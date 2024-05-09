@@ -388,6 +388,9 @@ String paymentStatus(String paymentStatus) {
     return language.cash;
   } else if (paymentStatus == Wallet) {
     return language.wallet;
+  } else if (paymentStatus == "payM")
+  {
+    return "Select Payment Method";
   }
   return language.pending;
 }

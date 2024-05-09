@@ -1008,7 +1008,7 @@ class NewEstimateRideListWidgetState extends State<NewEstimateRideListWidget> {
                         ],
                       ),
                       SizedBox(height: 10),
-                    Text("Me", style: primaryTextStyle()),
+                      Text("Me", style: primaryTextStyle()),
                     ],
                   ),
                   onTap: () {
@@ -1081,7 +1081,8 @@ class NewEstimateRideListWidgetState extends State<NewEstimateRideListWidget> {
             children: [
               Text("Ride Information", style: boldTextStyle()),
               SizedBox(height: 4),
-              Text("Total Amount - $currencyNameConst ${mRideTotalAmount.toStringAsFixed(2)}",
+              Text(
+                  "Total Amount - $currencyNameConst ${mRideTotalAmount.toStringAsFixed(2)}",
                   style: boldTextStyle()),
             ],
           ),
@@ -1203,7 +1204,7 @@ class NewEstimateRideListWidgetState extends State<NewEstimateRideListWidget> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(language.paymentVia, style: secondaryTextStyle(size: 12)),
+                Text(language.via, style: secondaryTextStyle(size: 12)),
                 SizedBox(height: 8),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -1230,7 +1231,8 @@ class NewEstimateRideListWidgetState extends State<NewEstimateRideListWidget> {
                                       ? language.cash
                                       : paymentMethodType == 'cash_wallet'
                                           ? language.cash
-                                          : paymentStatus(paymentMethodType),
+                                          : paymentStatus("payM"),
+                                  // : paymentStatus(paymentMethodType),
                                   style: boldTextStyle(size: 14),
                                 ),
                               ),
