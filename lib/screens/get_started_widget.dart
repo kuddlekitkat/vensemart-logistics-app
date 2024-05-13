@@ -137,38 +137,57 @@ class _GetStartedWidgetState extends State<GetStartedWidget> {
                           child: Padding(
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(40, 0, 0, 0),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              children: [
-                                FaIcon(
-                                  FontAwesomeIcons.facebookF,
-                                  color: Colors.white,
-                                  size: 24,
-                                ),
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      15, 0, 0, 0),
-                                  child: SelectionArea(
-                                      child: Text(
-                                    'Sign in with Facebook',
-                                    style: primaryTextStyle().copyWith(
-                                      color: Colors.white,
-                                      fontSize: 15,
-                                      fontWeight: FontWeight.w500,
-                                      fontFamily: 'Rubik',
-                                    ),
-                                    // style: FlutterFlowTheme.of(context)
-                                    //     .bodyText1
-                                    //     .override(
-                                    //       fontFamily: 'Rubik',
-                                    //       color: Colors.white,
-                                    //       fontSize: 15,
-                                    //       fontWeight: FontWeight.w500,
-                                    //     ),
-                                  )),
-                                ),
-                              ],
+                            child: InkWell(
+                              onTap: () async {
+                                // await Navigator.push(
+                                //   context,
+                                //   PageTransition(
+                                //     type: PageTransitionType.fade,
+                                //     duration: Duration(milliseconds: 200),
+                                //     reverseDuration: Duration(milliseconds: 200),
+                                //     child: SignWithEmailWidget(),
+                                //   ),
+                                // );
+                                launchScreen(
+                                  context,
+                                  SignUpScreen(),
+                                  pageRouteAnimation: PageRouteAnimation.Fade,
+                                  duration: Duration(milliseconds: 200),
+                                );
+                              },
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  FaIcon(
+                                    FontAwesomeIcons.envelope,
+                                    color: Colors.white,
+                                    size: 24,
+                                  ),
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        15, 0, 0, 0),
+                                    child: SelectionArea(
+                                        child: Text(
+                                      'Sign up with Email',
+                                      style: primaryTextStyle().copyWith(
+                                        color: Colors.white,
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.w500,
+                                        fontFamily: 'Rubik',
+                                      ),
+                                      // style: FlutterFlowTheme.of(context)
+                                      //     .bodyText1
+                                      //     .override(
+                                      //       fontFamily: 'Rubik',
+                                      //       color: Colors.white,
+                                      //       fontSize: 15,
+                                      //       fontWeight: FontWeight.w500,
+                                      //     ),
+                                    )),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),

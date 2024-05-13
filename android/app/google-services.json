@@ -1,40 +1,40 @@
 {
   "project_info": {
-    "project_number": "522987428134",
-    "project_id": "taxi-booking-810bf",
-    "storage_bucket": "taxi-booking-810bf.appspot.com"
+    "project_number": "794483813636",
+    "project_id": "vensemartserviceprovider",
+    "storage_bucket": "vensemartserviceprovider.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:522987428134:android:30da69f61ec15bcde809e7",
+        "mobilesdk_app_id": "1:794483813636:android:3dd5fe932c1fba152df451",
         "android_client_info": {
-          "package_name": "com.mighty.taxidriver"
+          "package_name": "com.vensemart.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+          "current_key": "AIzaSyCd08SkEWAvsul0jv-JqgcQTuin1jEeHRc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "522987428134-atlmgus8koagd8j2l4oko4fdnouhjb82.apps.googleusercontent.com",
+              "client_id": "794483813636-1n4he8br3nsn1l0r65j3t6dp67mlbma4.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.mighty.taxidriver1"
+                "bundle_id": "com.vensemart.delivery-rider"
               }
             }
           ]
@@ -43,34 +43,142 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:522987428134:android:08fd5fbd52aa8928e809e7",
+        "mobilesdk_app_id": "1:794483813636:android:87a9ceb6fd3790942df451",
         "android_client_info": {
-          "package_name": "com.mighty.taxirider"
+          "package_name": "com.vensemart.delivery_rider"
         }
       },
       "oauth_client": [
         {
-          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+          "current_key": "AIzaSyCd08SkEWAvsul0jv-JqgcQTuin1jEeHRc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "522987428134-atlmgus8koagd8j2l4oko4fdnouhjb82.apps.googleusercontent.com",
+              "client_id": "794483813636-1n4he8br3nsn1l0r65j3t6dp67mlbma4.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.mighty.taxidriver1"
+                "bundle_id": "com.vensemart.delivery-rider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794483813636:android:9fe1e387dd233ac12df451",
+        "android_client_info": {
+          "package_name": "com.vensemart.logistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd08SkEWAvsul0jv-JqgcQTuin1jEeHRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "794483813636-1n4he8br3nsn1l0r65j3t6dp67mlbma4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vensemart.delivery-rider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794483813636:android:7da957078756d9ab2df451",
+        "android_client_info": {
+          "package_name": "com.vensemart.vensemart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd08SkEWAvsul0jv-JqgcQTuin1jEeHRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "794483813636-1n4he8br3nsn1l0r65j3t6dp67mlbma4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vensemart.delivery-rider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794483813636:android:2ed5012a1e63a5682df451",
+        "android_client_info": {
+          "package_name": "com.vensemart.vensemartserviceprovider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd08SkEWAvsul0jv-JqgcQTuin1jEeHRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794483813636-0or45fg7fto739hv5e9144l0bqpb9j6q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "794483813636-1n4he8br3nsn1l0r65j3t6dp67mlbma4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vensemart.delivery-rider"
               }
             }
           ]
