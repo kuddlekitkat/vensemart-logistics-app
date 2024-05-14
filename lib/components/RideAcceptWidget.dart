@@ -136,11 +136,11 @@ class RideAcceptWidgetState extends State<RideAcceptWidget> {
             alignment: Alignment.topLeft,
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 4, horizontal: 8),
-              decoration:
-                  BoxDecoration(color: primaryColor, borderRadius: radius()),
+              // decoration:
+              //     BoxDecoration(color: primaryColor, borderRadius: radius()),
               child: Text(
                   statusName(status: widget.rideRequest!.status.validate()),
-                  style: boldTextStyle(color: Colors.white)),
+                  style: boldTextStyle(color: primaryColor)),
             ),
           ),
           SizedBox(height: 12),
@@ -168,9 +168,9 @@ class RideAcceptWidgetState extends State<RideAcceptWidget> {
               ),
               Container(
                 padding: EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                    border: Border.all(color: dividerColor),
-                    borderRadius: radius(defaultRadius)),
+                // decoration: BoxDecoration(
+                //     border: Border.all(color: dividerColor),
+                //     borderRadius: radius(defaultRadius)),
                 child: Text('${language.otp} ${widget.rideRequest!.otp ?? ''}',
                     style: boldTextStyle()),
               ),
